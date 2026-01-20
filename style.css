@@ -164,7 +164,6 @@ body {
 }
 
 
-
 /* About-Section */
 
 .small-container {
@@ -193,9 +192,11 @@ body {
 
 
 /* Rating Section */
+
+
 .Rating {
-    margin: 80px auto 120px;   /* ← center section */
-    max-width: 1200px;         /* ← grid width limit */
+    margin: 80px auto 120px;   
+    max-width: 1200px;         
     padding: 0 20px;
 }
 
@@ -222,6 +223,7 @@ body {
 
 
 /* Features Section */
+
 .features {
     background-color: #230E3D;
     padding: 120px 200px;
@@ -294,9 +296,6 @@ body {
     grid-row: 3 / 4;
 }
 
-
-
-
 /* Featured Episodes */
 
 .episodes h1{
@@ -368,9 +367,6 @@ body {
     gap: 5px;
 }
 
-
-
-
 /* Host Section */
 .host{
     margin: 0 auto 120px;
@@ -415,8 +411,6 @@ body {
     opacity: 0.7;
         border: 1px solid #FFFFFF;
         border-radius: 50%;
-
-
 }
 
 .icon-list{
@@ -438,7 +432,6 @@ body {
     align-items: center;
 } 
 
-
 /* Footer */
 footer {
     padding: 60px 0;
@@ -459,7 +452,6 @@ footer {
 .footer-links {
     margin: 20px 0;
 }
-
 
 .footer-links a {
     color: #FFFFFF;
@@ -497,13 +489,7 @@ footer p {
     color: #FFFFFF;
 }
 
-
-
-
 /* Media Section */
-
-
-
 
 @media screen and (max-width: 576px) {
 .desktop-nav,.btn-subscribe{
@@ -518,55 +504,40 @@ footer p {
 .about div{
     margin: 0 auto;
 }
-
 .Rating-grid {
     grid-template-columns: repeat(2, 1fr);
 }
-
 .features {
         padding: 60px 20px;
     }
-
 .features-grid {
         grid-template-columns: 1fr;
     }
-
 .feature-card {
         grid-column: auto !important;
         grid-row: auto !important;
     }
-
-
 .episodes-grid {
     grid-template-columns: repeat(1, 1fr); 
 
 }
-
-
 footer {
     padding: 40px 20px;
     text-align: center;
     background:;
   }
-
 .footer-content {
     margin: 0;
     padding: 0 10px;
   }
-
-
 .footer-links {
     margin: 10px 0;
   }
-
-
 .podcasts {
     max-width: 100%;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
     margin: 0 auto;
   }
-
-
 }
 
