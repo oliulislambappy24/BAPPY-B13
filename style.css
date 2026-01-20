@@ -498,3 +498,75 @@ footer p {
 }
 
 
+
+
+/* Media Section */
+
+
+
+
+@media screen and (max-width: 576px) {
+.desktop-nav,.btn-subscribe{
+    display: none;
+}
+.span{
+    display: inline;
+}
+.about-section{
+    background-color: #1A0B2E;
+}
+.about div{
+    margin: 0 auto;
+}
+
+.Rating-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features {
+        padding: 60px 20px;
+    }
+
+.features-grid {
+        grid-template-columns: 1fr;
+    }
+
+.feature-card {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+
+
+.episodes-grid {
+    grid-template-columns: repeat(1, 1fr); 
+
+}
+
+
+footer {
+    padding: 40px 20px;
+    text-align: center;
+    background:;
+  }
+
+.footer-content {
+    margin: 0;
+    padding: 0 10px;
+  }
+
+
+.footer-links {
+    margin: 10px 0;
+  }
+
+
+.podcasts {
+    max-width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+    margin: 0 auto;
+  }
+
+
+}
+
