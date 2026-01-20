@@ -22,7 +22,6 @@ body {
 
 /* Header */
 
-
 .nav-bar {
     display: flex;
     align-items: center;
@@ -69,7 +68,6 @@ body {
 }
 
 
-
 /* Hero Section */
 
 .hero {
@@ -98,7 +96,6 @@ body {
     size: 100%;
     margin: 70px 75px 80px;
 }
-
 
 .badge-new {
     position: absolute;
