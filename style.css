@@ -164,3 +164,30 @@ body {
 }
 
 
+
+/* About-Section */
+
+.small-container {
+    max-width: 800px;
+    text-align: center;
+}
+.about h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about p{
+    font-size: 1rem;
+    opacity: .8;
+    line-height: 20px;
+}
+#about-p{
+    margin-bottom: 80px;
+}
+
+.hr-about{
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: .1;
+}
+
