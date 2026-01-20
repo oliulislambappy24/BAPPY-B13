@@ -191,3 +191,32 @@ body {
     opacity: .1;
 }
 
+
+/* Rating Section */
+.Rating {
+    margin: 80px auto 120px;   /* ← center section */
+    max-width: 1200px;         /* ← grid width limit */
+    padding: 0 20px;
+}
+
+.Rating-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 80px;
+    justify-content: center;
+}
+
+.Rating-item h3 {
+    font-size: 3rem;
+    color: #00FF88;
+    padding-bottom: 16px;
+
+}
+
+.Rating-item p {
+    font-size: 1rem;
+    color: #FFFFFF;
+    opacity: .8;
+}
+
