@@ -368,3 +368,74 @@ body {
     gap: 5px;
 }
 
+
+
+
+/* Host Section */
+.host{
+    margin: 0 auto 120px;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 48.5px;
+}
+.host-info h3{
+    font-size: 2rem;
+}
+.host-info p{
+    font-size: 1rem;
+    opacity: .6;
+}
+.host-card {
+    background: #351165;
+    display: flex;
+    padding: 40px;
+    border-radius: 20px;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.host-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-links {
+    margin-top: 16px;
+}
+
+.social-links span {
+    margin-right: 15px;
+    cursor: pointer;
+    opacity: 0.7;
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+
+
+}
+
+.icon-list{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.icon-list .icon{
+    width: 30px;
+    height: 30px;
+    background: #533C72;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
