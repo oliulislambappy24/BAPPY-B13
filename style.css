@@ -439,3 +439,62 @@ body {
 } 
 
 
+/* Footer */
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: url(./assets/footer-bg.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
+.footer-content{
+    margin: 120px;
+}
+
+.footer-logo{
+    margin: 0 auto 32px;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+
+.footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.podcasts {
+    max-width: 34%;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    margin: 0 auto;
+}
+
+.podcast-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 2.5px;
+  border-radius: 8px;
+}
+
+.podcast-item img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+footer p {
+    margin-top: 32px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+
